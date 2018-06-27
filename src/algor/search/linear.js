@@ -19,4 +19,6 @@ function linearSearch(arr = [], target) {
     return -1
 }
 
-console.log(linearSearch([1, 2, 3], 3))
+export {
+    linearSearch
+}

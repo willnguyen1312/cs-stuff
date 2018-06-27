@@ -3,7 +3,13 @@
     "parser": "babel-eslint",
     "rules": {
         "semi": ["error", "never"],
+        "import/prefer-default-export": "off",
+        "no-restricted-syntax": "off",
+        "import/no-extraneous-dependencies": "off",
         "no-console": "off"
+    },
+    "env": {
+        "node": true,
+        "jest": true
     }
-
 }
