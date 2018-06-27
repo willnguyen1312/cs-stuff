@@ -43,7 +43,8 @@
     "testPathIgnorePatterns": ["<rootDir>/.next/", "<rootDir>/node_modules/", "<rootDir>/jest/", "<rootDir>/coverage/"],
     "setupTestFrameworkScriptFile": "<rootDir>/jest/customMatchers.js",
     "collectCoverageFrom": [
-      "<rootDir>/src/**/*.js"
+      "<rootDir>/src/**/*.js",
+      "!**/*.notest.js"
     ]
   },
   "license": "MIT"
