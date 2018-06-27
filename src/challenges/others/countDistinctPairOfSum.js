@@ -52,5 +52,7 @@ function countDistinctPairOfSumSecondTry(arr, sum) {
     return result
 }
 
-console.log(countDistinctPairOfSumFirstTry([1, 2, 2, 5, 5, 7, 7, 7, 4, 4, 4], 9))
-console.log(countDistinctPairOfSumSecondTry([1, 2, 2, 5, 5, 7, 7, 7, 4, 4, 4], 9))
+export {
+    countDistinctPairOfSumFirstTry,
+    countDistinctPairOfSumSecondTry
+}

@@ -2,7 +2,7 @@
   "name": "cs-stuff",
   "version": "1.0.0",
   "scripts": {
-    "test": "jest --coverage",
+    "test": "jest",
     "test:report": "jest --coverage && live-server ./coverage/lcov-report",
     "test:watch": "jest --watch",
     "precommit": "lint-staged",
@@ -43,7 +43,7 @@
     "testPathIgnorePatterns": ["<rootDir>/.next/", "<rootDir>/node_modules/", "<rootDir>/jest/", "<rootDir>/coverage/"],
     "setupTestFrameworkScriptFile": "<rootDir>/jest/customMatchers.js",
     "collectCoverageFrom": [
-      "<rootDir>/**/*.js"
+      "<rootDir>/src/**/*.js"
     ]
   },
   "license": "MIT"
