@@ -16,19 +16,20 @@
     ]
   },
   "dependencies": {
+    "immutable": "^4.0.0-rc.9",
     "lodash": "^4.17.10",
     "ramda": "^0.25.0",
     "string.prototype.matchall": "^3.0.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.5",
+    "babel-jest": "^23.2.0",
+    "babel-preset-env": "^1.7.0",
     "eslint": "^5.0.1",
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-config-prettier": "^2.9.0",
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-jest": "^23.2.0",
-    "babel-preset-env": "^1.7.0",
     "eslint-plugin-import": "^2.13.0",
     "fs-extra": "^6.0.1",
     "husky": "^0.14.3",
@@ -39,8 +40,15 @@
     "regenerator-runtime": "^0.12.0"
   },
   "jest": {
-    "setupFiles": ["<rootDir>/jest/jest.setup.js"],
-    "testPathIgnorePatterns": ["<rootDir>/.next/", "<rootDir>/node_modules/", "<rootDir>/jest/", "<rootDir>/coverage/"],
+    "setupFiles": [
+      "<rootDir>/jest/jest.setup.js"
+    ],
+    "testPathIgnorePatterns": [
+      "<rootDir>/.next/",
+      "<rootDir>/node_modules/",
+      "<rootDir>/jest/",
+      "<rootDir>/coverage/"
+    ],
     "setupTestFrameworkScriptFile": "<rootDir>/jest/customMatchers.js",
     "collectCoverageFrom": [
       "<rootDir>/src/**/*.js",
