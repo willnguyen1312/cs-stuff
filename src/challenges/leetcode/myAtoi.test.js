@@ -2,7 +2,7 @@ import {
     myAtoi
 } from "./myAtoi"
 
-describe('TimeConversion function', () => {
+describe('MyAtoi function', () => {
     it('should pass first test', () => {
         const input = "4193 with words"
         const expectedOutput = 4193

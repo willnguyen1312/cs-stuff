@@ -1,8 +1,8 @@
 import {
     rotLeft
-} from "./rotLef"
+} from "./rotLeft"
 
-describe('PageCount function', () => {
+describe('RotLeft function', () => {
     it('should pass the  test', () => {
         const input = [1, 2, 3, 4, 5]
         const expectOutput = [5, 1, 2, 3, 4]
